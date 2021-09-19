@@ -20,7 +20,7 @@ function setup() {
   ground = new Ground();
   stand1 = new Stand(390,300,250,10);
   stand2 = new Stand(730,200,200,10);
-  polygon = CreateSprite(15,200,50,50);
+  polygon = createSprite(15,200,50,50);
   polygon.addImage("poly",polygonImg);
 
 //level one
